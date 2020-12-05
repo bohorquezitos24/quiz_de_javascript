@@ -38,17 +38,17 @@ function obtenerValorConImpuestos (valorsinimpuestos, tipo_producto) {
     case 1:
     valor = valorsinimpuestos*21/100; 
     valortotal = valor + valorsinimpuestos;
-    alert("el valor del producto 1 es 121");
+    alert("el valor del producto 1 mas el 21% es:"+ valortotal);
 break; 
 case 2:
     valor = valorsinimpuestos*10/100; 
     valortotal = valor + valorsinimpuestos;
-    alert("el valor del producto 2 es 110");
+    alert("el valor del producto 2 es 10% es:"+ valortotal);
 break; 
 case 3:
     valor = valorsinimpuestos*5/100; 
     valortotal = valor + valorsinimpuestos;
-    alert("el valor del producto 3 es 105");
+    alert("el valor del producto 3 mas el  5% es:"+ valortotal);
     default:
 
 break; 
