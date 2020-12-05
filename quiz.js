@@ -1,9 +1,7 @@
 console.log("PRUEBA QUIZ PRACTICO");
 
 function Tipo_motor(motores) {
-    var x = Tipo_motor (0, 1, 2, 3, 4);
-    alert("No hay un valor establecido para el tipo de bomba"+ Tipo_motor);
-
+    
 
 
 
@@ -26,8 +24,24 @@ function Tipo_motor(motores) {
     break;
     default:
     alert("No hay un valor establecido para este tipó de  bomba");
-
+    break;
+    }
 }
+ Tipo_motor(parseInt(prompt("escribaa el numero de motor")));
+
 console.log (Tipo_motor)
 /*segundo punto*/
-function obtenerValorConImpuestos() 
+
+function obtenerValorConImpuestos (valorsinimpuestos, tipo_producto) {
+let x = (21, 10, 5);
+let y = (1, 2, 3);
+
+
+     return (x*y);
+    alert("El valor sin impuestos más el 21% si el tipo de producto es 1");
+    return (x*y);
+    alert("El valor sin impuestos más el 10% si el tipo de producto es 2");
+    return (x*y);
+    alert("El valor sin impuestos más el 5% si el tipo de producto es 3");
+
+}
