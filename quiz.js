@@ -33,15 +33,24 @@ console.log (Tipo_motor)
 /*segundo punto*/
 
 function obtenerValorConImpuestos (valorsinimpuestos, tipo_producto) {
-let x = (21, 10, 5);
-let y = (1, 2, 3);
+    switch(tipo_producto)
+    {
+    case 1:
+    valor = valorsinimpuestos*21/100; 
+    valortotal = valor + valorsinimpuestos;
+    alert("el valor del producto 1 es 121");
+break; 
+case 2:
+    valor = valorsinimpuestos*10/100; 
+    valortotal = valor + valorsinimpuestos;
+    alert("el valor del producto 2 es 110");
+break; 
+case 3:
+    valor = valorsinimpuestos*5/100; 
+    valortotal = valor + valorsinimpuestos;
+    alert("el valor del producto 3 es 105");
+    default:
 
-
-     return (x*y);
-    alert("El valor sin impuestos más el 21% si el tipo de producto es 1");
-    return (x*y);
-    alert("El valor sin impuestos más el 10% si el tipo de producto es 2");
-    return (x*y);
-    alert("El valor sin impuestos más el 5% si el tipo de producto es 3");
-
-}
+break; 
+    }
+};  
