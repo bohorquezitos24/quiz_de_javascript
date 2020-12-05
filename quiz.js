@@ -54,3 +54,4 @@ case 3:
 break; 
     }
 };  
+obtenerValorConImpuestos(2, 100000)
